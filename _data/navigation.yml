@@ -6,5 +6,7 @@ main:
     url: /framework/
   - title: "Groups"
     url: /groups/
+  - title: "Resources"
+    url: /resources/
   - title: "News"
     url: /blog/
