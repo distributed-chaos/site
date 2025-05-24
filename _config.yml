@@ -121,7 +121,7 @@ author:
 footer:
   links:
     - label: "Bsky"
-      icon: "fab fa-fw fa-twitter-square"
+      icon: "fab fa-fw fa-square-bluesky"
       url: "https://bsky.app/profile/distributedchaos.org"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
