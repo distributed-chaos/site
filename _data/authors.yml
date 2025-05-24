@@ -1,0 +1,27 @@
+Distributed Chaos:
+  name        : "Distributed Chaos"
+  bio         : "Be good to, and for, the community."
+  avatar      : "/assets/logo_88x88.png"
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.distributedchaos.org"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github-square"
+      url: "https://github.com/distributed-chaos"
+    - label: "BSky"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://bsky.app/profile/distributedchaos.org"
+
+George Burdell:
+  name        : "George P. Burdell"
+  bio         : "What's the good word?"
+  avatar      : "/assets/logo_88x88.png"
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.distributedchaos.org"
+    - label: "BSky"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://bsky.app/profile/distributedchaos.org"
+
