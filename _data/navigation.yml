@@ -1,0 +1,10 @@
+# main links
+main:
+  - title: "About"
+    url: /about/
+  - title: "Framework"
+    url: /framework/
+  - title: "Groups"
+    url: /groups/
+  - title: "News"
+    url: /blog/

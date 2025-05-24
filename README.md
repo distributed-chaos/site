@@ -1,2 +1,1 @@
-# site
-Distributed Chaos website
+# www.distributedchaos.org
