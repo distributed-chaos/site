@@ -1,9 +1,8 @@
 ---
-layout: splash 
-title: News
+layout: single 
+title: Distributed Chaos News
+permalink: /news/
 ---
-
-# Distributed Chaos News
 
 <ul>
   {% for post in site.posts %}

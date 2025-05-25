@@ -7,7 +7,7 @@ header:
   actions:
 
 excerpt: >
-  Distributed Chaos is a lightweight framework for, and network of of, community hacker meetups.<br />
+  Distributed Chaos is a lightweight framework for, and network of of, community hacker meetups.
 feature_row:
 - title: "The Framework"
   excerpt: "What does it take to be part of the club?"

@@ -1,10 +1,8 @@
 ---
-layout: splash
-title: Groups
+layout: single
+title: Local Groups
 permalink: /groups/
 ---
-
-# Local Groups
 
 - [CNN (Atlanta, GA)](https://cnn.com)
 - [WFTV (Orlando, FL)](https://wftv.com)
