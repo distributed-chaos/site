@@ -57,6 +57,9 @@ permalink: /groups/
     <h3><a href="https://dc423.org">DC423 - Chattanooga, TN</a></h3>
   </div>
   <div class="group-item">
+    <h3><a href="https://dc407.com">DC407 - Orlando, FL</a></h3>
+  </div>
+  <div class="group-item">
     <h3><a href="https://dc615.org">NashSec - Nashville, TN</a></h3>
   </div>
 </div>
