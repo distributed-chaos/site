@@ -10,4 +10,4 @@ permalink: /groups/
 - [KTLK (Minneapolis, MN)](https://twincitiesnewstalk.iheart.com/)
 - [KIRO (Seattle, WA)](https://www.kiro7.com/)
 <!-- Add more groups here -->
-
+- [DC 202 - Washington DC](https://defcon202.org/)
