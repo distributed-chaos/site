@@ -39,21 +39,36 @@ toc_label: "Resource Categories"
     font-weight: bold;
 }
 
-.toc .nav__title,
-.nav__title,
-nav.toc .nav__title {
-    color: var(--text-color) !important;
-    opacity: 1 !important;
-    font-size: 1em;
-    font-weight: bold;
-    padding: 0.5em 0;
-    margin-bottom: 0.8em;
-    border-bottom: 1px solid var(--border-color);
+/* Light mode styles */
+@media (prefers-color-scheme: light) {
+    .toc .nav__title {
+        background-color: #000000;
+        color: #ffffff !important;
+    }
 }
 
-/* Additional override to ensure no gray color */
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+    .toc .nav__title {
+        background-color: var(--background-color);
+        color: var(--text-color) !important;
+    }
+}
+
+/* Base spacing */
 .toc .nav__title {
-    -webkit-text-fill-color: var(--text-color) !important;
+    margin: -15px -15px 0.8em -15px;
+    padding: 0.8em;
+    border-radius: 12px 12px 0 0;
+}
+
+/* Additional override to ensure proper text color */
+.toc * {
+    color: #ffffff !important;
+}
+
+.toc ul {
+    color: #ffffff !important;
 }
 </style>
 
