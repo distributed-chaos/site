@@ -205,7 +205,73 @@
             </nav>
           </aside>
         
-        <h2 id="starting-a-group">Starting a Group</h2>
+        <style>
+.toc {
+    background-color: var(--background-color);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 15px;
+    transition: all 0.3s ease;
+}
+
+.toc__menu {
+    font-size: 0.9em;
+}
+
+.toc__menu a {
+    color: var(--text-color);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.toc__menu a:hover {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.toc__menu li {
+    margin-bottom: 0.5em;
+}
+
+.toc__menu .active a {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+/* Light mode styles */
+@media (prefers-color-scheme: light) {
+    .toc .nav__title {
+        background-color: #000000;
+        color: #ffffff !important;
+    }
+}
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+    .toc .nav__title {
+        background-color: var(--background-color);
+        color: var(--text-color) !important;
+    }
+}
+
+/* Base spacing */
+.toc .nav__title {
+    margin: -15px -15px 0.8em -15px;
+    padding: 0.8em;
+    border-radius: 12px 12px 0 0;
+}
+
+/* Additional override to ensure proper text color */
+.toc * {
+    color: #ffffff !important;
+}
+
+.toc ul {
+    color: #ffffff !important;
+}
+</style>
+
+<h2 id="starting-a-group">Starting a Group</h2>
 
 <ul>
   <li><a href="/framework/">Framework Guidelines</a></li>
