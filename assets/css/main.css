@@ -801,7 +801,7 @@ input[type="submit"],
 form {
   margin-bottom:5px;
   padding:1em;
-  background-color:var(--color-foreground)
+  background-color:var(--color-background)
 }
 form fieldset {
   margin-bottom:5px;
@@ -1079,7 +1079,7 @@ table+table {
   margin-top:1em
 }
 thead {
-  background-color:var(--color-foreground);
+  background-color:var(--color-background);
   border-bottom:2px solid #b6b6b6
 }
 th {
@@ -1132,15 +1132,15 @@ th {
   margin-inline-start:-0.5em
 }
 .btn--primary {
-  background-color:var(--color-foreground);
+  background-color:var(--color-background);
   color:var(--color-foreground)
 }
 .btn--primary:visited {
-  background-color:var(--color-foreground);
+  background-color:var(--color-background);
   color:var(--color-foreground)
 }
 .btn--primary:hover {
-  background-color:var(--color-foreground);
+  background-color:var(--color-background);
   color:var(--color-foreground)
 }
 .btn--inverse {
@@ -1153,7 +1153,7 @@ th {
   color:var(--color-foreground)
 }
 .btn--inverse:hover {
-  background-color:var(--color-foreground);
+  background-color:var(--color-background);
   color:var(--color-foreground)
 }
 .btn--light-outline {
@@ -1170,111 +1170,111 @@ th {
   color:var(--color-foreground)
 }
 .btn--success {
-  background-color:var(--color-foreground);
+  background-color:var(--color-background);
   color:var(--color-foreground)
 }
 .btn--success:visited {
-  background-color:var(--color-foreground);
+  background-color:var(--color-background);
   color:var(--color-foreground)
 }
 .btn--success:hover {
-  background-color:var(--color-foreground);
+  background-color:var(--color-background);
   color:var(--color-foreground)
 }
 .btn--warning {
-  background-color:var(--color-foreground);
+  background-color:var(--color-background);
   color:var(--color-foreground)
 }
 .btn--warning:visited {
-  background-color:var(--color-foreground);
+  background-color:var(--color-background);
   color:var(--color-foreground)
 }
 .btn--warning:hover {
-  background-color:var(--color-foreground);
+  background-color:var(--color-background);
   color:var(--color-foreground)
 }
 .btn--danger {
-  background-color:var(--color-foreground);
+  background-color:var(--color-background);
   color:var(--color-foreground)
 }
 .btn--danger:visited {
-  background-color:var(--color-foreground);
+  background-color:var(--color-background);
   color:var(--color-foreground)
 }
 .btn--danger:hover {
-  background-color:var(--color-foreground);
+  background-color:var(--color-background);
   color:var(--color-foreground)
 }
 .btn--info {
-  background-color:var(--color-foreground);
+  background-color:var(--color-background);
   color:var(--color-foreground)
 }
 .btn--info:visited {
-  background-color:var(--color-foreground);
+  background-color:var(--color-background);
   color:var(--color-foreground)
 }
 .btn--info:hover {
-  background-color:var(--color-foreground);
+  background-color:var(--color-background);
   color:var(--color-foreground)
 }
 .btn--facebook {
-  background-color:var(--color-foreground);
+  background-color:var(--color-background);
   color:var(--color-foreground)
 }
 .btn--facebook:visited {
-  background-color:var(--color-foreground);
+  background-color:var(--color-background);
   color:var(--color-foreground)
 }
 .btn--facebook:hover {
-  background-color:var(--color-foreground);
+  background-color:var(--color-background);
   color:var(--color-foreground)
 }
 .btn--twitter {
-  background-color:var(--color-foreground);
+  background-color:var(--color-background);
   color:var(--color-foreground)
 }
 .btn--twitter:visited {
-  background-color:var(--color-foreground);
+  background-color:var(--color-background);
   color:var(--color-foreground)
 }
 .btn--twitter:hover {
-  background-color:var(--color-foreground);
+  background-color:var(--color-background);
   color:var(--color-foreground)
 }
 .btn--linkedin {
-  background-color:var(--color-foreground);
+  background-color:var(--color-background);
   color:var(--color-foreground)
 }
 .btn--linkedin:visited {
-  background-color:var(--color-foreground);
+  background-color:var(--color-background);
   color:var(--color-foreground)
 }
 .btn--linkedin:hover {
-  background-color:var(--color-foreground);
+  background-color:var(--color-background);
   color:var(--color-foreground)
 }
 .btn--mastodon {
-  background-color:var(--color-foreground);
+  background-color:var(--color-background);
   color:var(--color-foreground)
 }
 .btn--mastodon:visited {
-  background-color:var(--color-foreground);
+  background-color:var(--color-background);
   color:var(--color-foreground)
 }
 .btn--mastodon:hover {
-  background-color:var(--color-foreground);
+  background-color:var(--color-background);
   color:var(--color-foreground)
 }
 .btn--bluesky {
-  background-color:var(--color-foreground);
+  background-color:var(--color-background);
   color:var(--color-foreground)
 }
 .btn--bluesky:visited {
-  background-color:var(--color-foreground);
+  background-color:var(--color-background);
   color:var(--color-foreground)
 }
 .btn--bluesky:hover {
-  background-color:var(--color-foreground);
+  background-color:var(--color-background);
   color:var(--color-foreground)
 }
 .btn--block {
@@ -1307,7 +1307,7 @@ th {
   font-family:-apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
   font-size:.75em !important;
   text-indent:initial;
-  background-color:var(--color-foreground);
+  background-color:var(--color-background);
   border-radius:4px;
   box-shadow:0 1px 1px rgba(189,193,196,0.25)
 }
@@ -1337,7 +1337,7 @@ blockquote.notice {
   border-inline-start-color:var(--color-foreground)
 }
 .notice code {
-  background-color:var(--color-foreground)
+  background-color:var(--color-background)
 }
 .notice pre code {
   background-color:inherit
@@ -1352,7 +1352,7 @@ blockquote.notice {
   font-family:-apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
   font-size:.75em !important;
   text-indent:initial;
-  background-color:var(--color-foreground);
+  background-color:var(--color-background);
   border-radius:4px;
   box-shadow:0 1px 1px rgba(111,119,125,0.25)
 }
@@ -1382,7 +1382,7 @@ blockquote.notice--primary {
   border-inline-start-color:var(--color-foreground)
 }
 .notice--primary code {
-  background-color:var(--color-foreground)
+  background-color:var(--color-background)
 }
 .notice--primary pre code {
   background-color:inherit
@@ -1397,7 +1397,7 @@ blockquote.notice--primary {
   font-family:-apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
   font-size:.75em !important;
   text-indent:initial;
-  background-color:var(--color-foreground);
+  background-color:var(--color-background);
   border-radius:4px;
   box-shadow:0 1px 1px rgba(59,156,186,0.25)
 }
@@ -1427,7 +1427,7 @@ blockquote.notice--info {
   border-inline-start-color:var(--color-foreground)
 }
 .notice--info code {
-  background-color:var(--color-foreground)
+  background-color:var(--color-background)
 }
 .notice--info pre code {
   background-color:inherit
@@ -1442,7 +1442,7 @@ blockquote.notice--info {
   font-family:-apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
   font-size:.75em !important;
   text-indent:initial;
-  background-color:var(--color-foreground);
+  background-color:var(--color-background);
   border-radius:4px;
   box-shadow:0 1px 1px rgba(214,127,5,0.25)
 }
@@ -1472,7 +1472,7 @@ blockquote.notice--warning {
   border-inline-start-color:var(--color-foreground)
 }
 .notice--warning code {
-  background-color:var(--color-foreground)
+  background-color:var(--color-background)
 }
 .notice--warning pre code {
   background-color:inherit
@@ -1487,7 +1487,7 @@ blockquote.notice--warning {
   font-family:-apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
   font-size:.75em !important;
   text-indent:initial;
-  background-color:var(--color-foreground);
+  background-color:var(--color-background);
   border-radius:4px;
   box-shadow:0 1px 1px rgba(63,166,63,0.25)
 }
@@ -1517,7 +1517,7 @@ blockquote.notice--success {
   border-inline-start-color:var(--color-foreground)
 }
 .notice--success code {
-  background-color:var(--color-foreground)
+  background-color:var(--color-background)
 }
 .notice--success pre code {
   background-color:inherit
@@ -1532,7 +1532,7 @@ blockquote.notice--success {
   font-family:-apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
   font-size:.75em !important;
   text-indent:initial;
-  background-color:var(--color-foreground);
+  background-color:var(--color-background);
   border-radius:4px;
   box-shadow:0 1px 1px rgba(238,95,91,0.25)
 }
@@ -1562,7 +1562,7 @@ blockquote.notice--danger {
   border-inline-start-color:var(--color-foreground)
 }
 .notice--danger code {
-  background-color:var(--color-foreground)
+  background-color:var(--color-background)
 }
 .notice--danger pre code {
   background-color:inherit
@@ -1771,7 +1771,7 @@ blockquote.notice--danger {
   border-radius:4px
 }
 .pagination--pager:hover {
-  background-color:var(--color-foreground);
+  background-color:var(--color-background);
   color:var(--color-foreground)
 }
 .pagination--pager:first-child {
@@ -1968,7 +1968,7 @@ blockquote.notice--danger {
     width:0.75em;
     height:0.125em;
     line-height:1;
-    background-color:var(--color-foreground);
+    background-color:var(--color-background);
     -webkit-transition:0.2s ease-out;
     transition:0.2s ease-out
   }
@@ -1980,7 +1980,7 @@ blockquote.notice--danger {
   .nav__list label:hover {
     color:var(--color-foreground);
     border-color:var(--color-foreground);
-    background-color:var(--color-foreground)
+    background-color:var(--color-background)
   }
   .nav__list label:hover:before,
   .nav__list label:hover:after {
@@ -1988,7 +1988,7 @@ blockquote.notice--danger {
   }
   .nav__list input:checked+label {
     color:white;
-    background-color:var(--color-foreground)
+    background-color:var(--color-background)
   }
   .nav__list input:checked+label:before,
   .nav__list input:checked+label:after {
@@ -2096,7 +2096,7 @@ blockquote.notice--danger {
   border-start-end-radius:4px
 }
 .toc .active a {
-  background-color:var(--color-foreground);
+  background-color:var(--color-background);
   color:var(--color-foreground)
 }
 .toc__menu {
@@ -2149,7 +2149,7 @@ blockquote.notice--danger {
   animation:intro 0.3s both;
   -webkit-animation-delay:0.45s;
   animation-delay:0.45s;
-  background-color:var(--color-foreground)
+  background-color:var(--color-background)
 }
 .page__footer::after {
   clear:both;
@@ -2375,7 +2375,7 @@ figure.highlight pre.highlight {
   width:100%
 }
 .highlight .hll {
-  background-color:var(--color-foreground)
+  background-color:var(--color-background)
 }
 .highlight .c {
   color:var(--color-foreground)
@@ -2897,7 +2897,7 @@ body:hover .visually-hidden button {
   min-height:20px;
   padding:19px;
   margin-bottom:20px;
-  background-color:var(--color-foreground);
+  background-color:var(--color-background);
   border:1px solid #e3e3e3;
   border-radius:4px;
   box-shadow:inset 0 1px 1px rgba(0,0,0,0.05)
