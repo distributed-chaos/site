@@ -1,0 +1,23 @@
+{% if include.id %}
+  {% assign groups_list = page[include.id] %}
+{% else %}
+  {% assign groups_list = page.groups_list %}
+{% endif %}
+
+<div id="groups-list">
+    {% for g in groups_list %}
+      <div class="group-item">
+        {% if g.name %}
+          <h3>
+            {% if g.url %}
+              <a href="{{ g.url }}">
+            {% endif %}
+            {{ g.name }}{% if g.location %} - {{ g.location }}{% endif %}
+            {% if g.url %}
+              </a>
+            {% endif %}
+          </h3>
+        {% endif %}
+      </div>
+    {% endfor %}
+</div>
