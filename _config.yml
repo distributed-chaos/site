@@ -7,7 +7,7 @@ dark_theme_skin         : "dark" # The skin to use for dark mode
 
 # Site Settings
 locale                   : "en-US"
-rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
+rtl                      : false # turns direction of the page into right to left for RTL languages
 title                    : "Distributed Chaos"
 title_separator          : "-"
 subtitle                 : "Local hacker meetups" # site tagline that appears below site title in masthead
@@ -31,7 +31,7 @@ main:
     url: /resources/
   - title: "About"
     url: /about/
-breadcrumbs              : # true, false (default)
+breadcrumbs              : false
 words_per_minute         : 200
 enable_copy_code_button  : true # Enable code copy button for code snippets
 copyright                : # "copyright" name, defaults to site.title
@@ -157,19 +157,10 @@ exclude:
   - assets/js/plugins
   - assets/js/_main.js
   - assets/js/vendor
-  - Capfile
   - CHANGELOG
-  - config
   - Gemfile
-  - Gruntfile.js
-  - gulpfile.js
   - LICENSE
   - log
-  - minimal-mistakes-jekyll.gemspec
-  - node_modules
-  - package.json
-  - package-lock.json
-  - Rakefile
   - README
   - tmp
   - /docs # ignore Minimal Mistakes /docs

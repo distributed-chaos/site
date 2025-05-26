@@ -4,6 +4,9 @@ title: Resources
 permalink: /resources/
 toc: true
 toc_label: "Resource Categories"
+description: "Comprehensive resources for running and managing local hacker meetups, including venue tips, meeting formats, and community building guidelines"
+keywords: "hacker meetups, venue tips, meeting formats, community building, CTF events, sponsorship, documentation"
+search: true
 ---
 
 <style>
