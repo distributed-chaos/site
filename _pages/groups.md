@@ -1,7 +1,10 @@
 ---
 layout: single
-title: Local Groups
+title: Groups
 permalink: /groups/
+description: "Find and join local hacker meetups in your area, or learn how to start your own Distributed Chaos group"
+keywords: "hacker groups, local meetups, join meetup, start group, hacker community, locations"
+search: true
 ---
 
 <style>

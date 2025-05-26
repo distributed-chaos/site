@@ -4,71 +4,87 @@ title: Resources
 permalink: /resources/
 toc: true
 toc_label: "Resource Categories"
+description: "Comprehensive resources for running and managing local hacker meetups, including venue tips, meeting formats, and community building guidelines"
+keywords: "hacker meetups, venue tips, meeting formats, community building, CTF events, sponsorship, documentation"
+search: true
 ---
 
 <style>
+.sidebar__right {
+    color: #000000 !important;
+}
+
 .toc {
-    background-color: var(--background-color);
-    border: 1px solid var(--border-color);
+    color: #000000 !important;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
     border-radius: 12px;
     padding: 15px;
-    transition: all 0.3s ease;
 }
 
-.toc__menu {
-    font-size: 0.9em;
-}
-
-.toc__menu a {
-    color: var(--text-color);
-    text-decoration: none;
-    transition: color 0.2s ease;
-}
-
-.toc__menu a:hover {
-    color: var(--primary-color);
-    text-decoration: none;
-}
-
-.toc__menu li {
-    margin-bottom: 0.5em;
-}
-
-.toc__menu .active a {
-    color: var(--primary-color);
-    font-weight: bold;
-}
-
-/* Light mode styles */
-@media (prefers-color-scheme: light) {
-    .toc .nav__title {
-        background-color: #000000;
-        color: #ffffff !important;
-    }
-}
-
-/* Dark mode styles */
-@media (prefers-color-scheme: dark) {
-    .toc .nav__title {
-        background-color: var(--background-color);
-        color: var(--text-color) !important;
-    }
-}
-
-/* Base spacing */
 .toc .nav__title {
+    background: #000000 !important;
+    color: #ffffff !important;
     margin: -15px -15px 0.8em -15px;
     padding: 0.8em;
     border-radius: 12px 12px 0 0;
 }
 
-/* Additional override to ensure proper text color */
-.toc * {
-    color: #ffffff !important;
+.toc .nav__list {
+    color: #000000 !important;
 }
 
-.toc ul {
-    color: #ffffff !important;
+.toc .nav__items {
+    color: #000000 !important;
+}
+
+.toc .nav__items a {
+    color: #000000 !important;
+    text-decoration: none;
+}
+
+.toc .nav__items a:hover {
+    color: #666666 !important;
+    text-decoration: none;
+}
+
+.toc .nav__items ul {
+    color: #000000 !important;
+}
+
+.toc .nav__items li {
+    color: #000000 !important;
+}
+
+.toc .active a {
+    color: #000000 !important;
+    font-weight: bold;
+}
+
+/* Dark mode overrides */
+@media (prefers-color-scheme: dark) {
+    .sidebar__right {
+        color: #ffffff !important;
+    }
+    
+    .toc {
+        color: #ffffff !important;
+        background-color: var(--background-color);
+        border-color: var(--border-color);
+    }
+    
+    .toc .nav__list,
+    .toc .nav__items,
+    .toc .nav__items a,
+    .toc .nav__items ul,
+    .toc .nav__items li,
+    .toc .active a {
+        color: #ffffff !important;
+    }
+    
+    .toc .nav__items a:hover {
+        color: #cccccc !important;
+    }
 }
 </style>
 

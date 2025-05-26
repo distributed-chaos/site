@@ -2,6 +2,9 @@
 layout: single
 title: About
 permalink: /about/
+description: "Learn about Distributed Chaos, our mission, values, and the community we're building for local hacker meetups"
+keywords: "about, mission, values, hacker community, distributed chaos, local meetups"
+search: true
 ---
 
 ## What is Distributed Chaos?
