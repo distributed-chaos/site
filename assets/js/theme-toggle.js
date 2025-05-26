@@ -40,3 +40,23 @@ if (document.readyState === 'loading') {
 } else {
     initializeTheme();
 }
+
+// Search modal functionality
+function toggleSearchModal() {
+    const modal = document.getElementById('search-modal');
+    if (!modal) return;
+    if (modal.style.display === 'none' || modal.style.display === '') {
+        modal.style.display = 'block';
+        document.getElementById('search-input').focus();
+    } else {
+        modal.style.display = 'none';
+    }
+}
+
+// Close modal on Escape key
+window.addEventListener('keydown', function(e) {
+    const modal = document.getElementById('search-modal');
+    if (modal && modal.style.display === 'block' && e.key === 'Escape') {
+        toggleSearchModal();
+    }
+});

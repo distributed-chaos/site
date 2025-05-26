@@ -125,59 +125,56 @@
 </nav>
 
     <div class="masthead">
-  <div class="masthead__inner-wrap">
-    <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        
-          <a class="site-logo" href="/"><img src="/assets/logo_88x88.png" alt="Distributed Chaos"></a>
-        
-        <a class="site-title" href="/">
+    <div class="masthead__inner-wrap">
+        <div class="masthead__menu">
+            <nav id="site-nav" class="greedy-nav">
+                
+                <a class="site-logo" href="/"><img src="/assets/logo_88x88.png" alt="Distributed Chaos"></a>
+                
+                <a class="site-title" href="/">
           Distributed Chaos
           <span class="site-subtitle">Local hacker meetups</span>
         </a>
-        <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="/about/"
-                
-              >About</a>
-            </li><li class="masthead__menu-item">
-              <a href="/framework/"
-                
-              >Framework</a>
-            </li><li class="masthead__menu-item">
-              <a href="/groups/"
-                
-              >Groups</a>
-            </li><li class="masthead__menu-item">
-              <a href="/resources/"
-                
-              >Resources</a>
-            </li><li class="masthead__menu-item">
-              <a href="/news/"
-                
-              >News</a>
-            </li></ul>
-        
-        <button class="theme__toggle" type="button" onclick="toggleTheme()" aria-label="Toggle theme">
+                <ul class="visible-links"><li class="masthead__menu-item">
+                        <a href="/about/" >About</a>
+                    </li><li class="masthead__menu-item">
+                        <a href="/framework/" >Framework</a>
+                    </li><li class="masthead__menu-item">
+                        <a href="/groups/" >Groups</a>
+                    </li><li class="masthead__menu-item">
+                        <a href="/resources/" >Resources</a>
+                    </li><li class="masthead__menu-item">
+                        <a href="/news/" >News</a>
+                    </li></ul>
+
+                <button class="theme__toggle" type="button" onclick="toggleTheme()" aria-label="Toggle theme">
           <i class="fas fa-sun" aria-hidden="true"></i>
           <i class="fas fa-moon" aria-hidden="true"></i>
-        </button>
-
-        
-        <button class="search__toggle" type="button">
+        </button> <div id="search-modal" class="search-modal" style="display:none;">
+    <div class="search-modal__content">
+        <button class="search-modal__close" aria-label="Close search" onclick="toggleSearchModal()">&times;</button>
+        <form class="search-modal__form" role="search" onsubmit="return false;">
+            <label for="search-input" class="sr-only">Search</label>
+            <input type="search" id="search-input" class="search-modal__input" placeholder="Enter your search term..." autofocus>
+            <button type="submit" class="search-modal__submit">Search</button>
+        </form>
+        <div id="search-results" class="search-modal__results"></div>
+    </div>
+</div> 
+                <button class="search__toggle" type="button" onclick="toggleSearchModal()">
           <span class="visually-hidden">Toggle search</span>
           <i class="fas fa-search"></i>
-        </button>
-        
-        
-        <button class="greedy-nav__toggle hidden" type="button">
+        </button> 
+
+                <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">Toggle menu</span>
           <div class="navicon"></div>
         </button>
-        <ul class="hidden-links hidden"></ul>
-      </nav>
+                <ul class="hidden-links hidden"></ul>
+            </nav>
+        </div>
     </div>
-  </div>
-</div> 
+</div>
 
     <div class="initial-content">
       
