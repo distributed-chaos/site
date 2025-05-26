@@ -78,8 +78,20 @@
 
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 
-<!-- end custom head snippets -->
+<!-- Theme toggle script -->
+<script src="/assets/js/theme-toggle.js"></script>
 
+<link rel="stylesheet" href="/assets/css/main.css" id="theme_source">
+<link rel="stylesheet" href="/assets/css/main-dark.css" id="theme_source_2" disabled>
+
+<style>
+.theme__toggle .fa-sun { display: none !important; }
+.theme__toggle .fa-moon { display: block !important; }
+body.dark .theme__toggle .fa-sun { display: block !important; }
+body.dark .theme__toggle .fa-moon { display: none !important; }
+</style>
+
+<!-- end custom head snippets --> 
   </head>
 
   <body class="layout--single" dir="ltr">
@@ -91,9 +103,7 @@
   </ul>
 </nav>
 
-    
-
-<div class="masthead">
+    <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
@@ -105,41 +115,38 @@
           <span class="site-subtitle">Local hacker meetups</span>
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
-              <a
-                href="/about/"
-                
+              <a href="/about/"
                 
               >About</a>
             </li><li class="masthead__menu-item">
-              <a
-                href="/framework/"
-                
+              <a href="/framework/"
                 
               >Framework</a>
             </li><li class="masthead__menu-item">
-              <a
-                href="/groups/"
-                
+              <a href="/groups/"
                 
               >Groups</a>
             </li><li class="masthead__menu-item">
-              <a
-                href="/resources/"
-                
+              <a href="/resources/"
                 
               >Resources</a>
             </li><li class="masthead__menu-item">
-              <a
-                href="/news/"
-                
+              <a href="/news/"
                 
               >News</a>
             </li></ul>
+        
+        <button class="theme__toggle" type="button" onclick="toggleTheme()" aria-label="Toggle theme">
+          <i class="fas fa-sun" aria-hidden="true"></i>
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </button>
+
         
         <button class="search__toggle" type="button">
           <span class="visually-hidden">Toggle search</span>
           <i class="fas fa-search"></i>
         </button>
+        
         
         <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">Toggle menu</span>
@@ -149,8 +156,7 @@
       </nav>
     </div>
   </div>
-</div>
-
+</div> 
 
     <div class="initial-content">
       
@@ -310,6 +316,10 @@
 
 
 
+
+  
+    <script src="/assets/js/theme-toggle.js"></script>
+  
 
 
   </body>
