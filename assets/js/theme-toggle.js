@@ -1,37 +1,22 @@
 // Theme toggle functionality
 function toggleTheme() {
     const body = document.body;
-    const isDark = body.classList.contains('dark');
-    const lightSheet = document.getElementById('theme_source');
-    const darkSheet = document.getElementById('theme_source_2');
+    const isDark = body.classList.contains('theme-dark');
 
     if (isDark) {
-        body.classList.remove('dark');
+        body.classList.remove('theme-dark');
+        body.classList.add('theme-light');
         localStorage.setItem('theme', 'light');
-        lightSheet.disabled = false;
-        darkSheet.disabled = true;
     } else {
-        body.classList.add('dark');
+        body.classList.remove('theme-light');
+        body.classList.add('theme-dark');
         localStorage.setItem('theme', 'dark');
-        lightSheet.disabled = true;
-        darkSheet.disabled = false;
     }
 }
 
-// Initialize theme from localStorage
 function initializeTheme() {
     const savedTheme = localStorage.getItem('theme') || 'light';
-    const lightSheet = document.getElementById('theme_source');
-    const darkSheet = document.getElementById('theme_source_2');
-    if (savedTheme === 'dark') {
-        document.body.classList.add('dark');
-        lightSheet.disabled = true;
-        darkSheet.disabled = false;
-    } else {
-        document.body.classList.remove('dark');
-        lightSheet.disabled = false;
-        darkSheet.disabled = true;
-    }
+    document.body.classList.add(`theme-${savedTheme}`);
 }
 
 // Run initialization when DOM is ready
