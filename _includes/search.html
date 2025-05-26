@@ -1,0 +1,11 @@
+<div id="search-modal" class="search-modal" style="display:none;">
+    <div class="search-modal__content">
+        <button class="search-modal__close" aria-label="Close search" onclick="toggleSearchModal()">&times;</button>
+        <form class="search-modal__form" role="search" onsubmit="return false;">
+            <label for="search-input" class="sr-only">Search</label>
+            <input type="search" id="search-input" class="search-modal__input" placeholder="Enter your search term..." autofocus>
+            <button type="submit" class="search-modal__submit">Search</button>
+        </form>
+        <div id="search-results" class="search-modal__results"></div>
+    </div>
+</div>

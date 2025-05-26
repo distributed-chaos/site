@@ -4,12 +4,34 @@ title: About
 permalink: /about/
 ---
 
-Frank: Many Christmases ago, I went to buy a doll for my son. I reached for the last one they had, but so did another man. As I rained blows upon him, I realized there had to be another way.
+## What is Distributed Chaos?
 
-Kramer: What happened to the doll?
+Distributed Chaos is a grassroots initiative to foster local hacker communities worldwide. We believe in the power of face-to-face connections and hands-on learning in the hacker and security community.
 
-Frank: It was destroyed. But out of that a new holiday was born. A Festivus for the rest of us.
+## Our Mission
 
-Kramer: That must have been some kind of doll.
+To provide a lightweight framework that enables local hacker groups to form, grow, and thrive while maintaining their independence and unique character.
 
-Frank: She was. 
+## Core Values
+
+- **Community First**: We prioritize building genuine connections and sharing knowledge
+- **Decentralized**: No central authority - just a framework and shared principles
+- **Open & Inclusive**: Everyone is welcome to participate and contribute
+- **Educational**: Focus on learning and skill development
+- **Independent**: Each group maintains its autonomy while sharing common values
+
+## History
+
+Distributed Chaos was born from the recognition that while online communities are valuable, there's something special about meeting fellow hackers face-to-face. We launched in 2024 with the goal of making it easier for local hacker communities to organize and connect.
+
+## Get Involved
+
+- [Start a local group](/groups/#start-a-group)
+- [Contribute to our resources](/resources/)
+- [Join our GitHub organization](https://github.com/distributed-chaos)
+
+## Contact
+
+Have questions? Want to get involved? You can reach us through:
+- [GitHub Discussions](https://github.com/distributed-chaos/community/discussions)
+- [Bluesky](https://bsky.app/profile/distributedchaos.org) 

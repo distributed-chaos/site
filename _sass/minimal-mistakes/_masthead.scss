@@ -1,0 +1,44 @@
+.theme__toggle {
+  margin-left: 1rem;
+  padding: 0;
+  border: 0;
+  outline: none;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  -webkit-transition: $global-transition;
+  transition: $global-transition;
+  display: flex;
+  align-items: center;
+
+  &:hover {
+    color: mix(#000, $text-color, 25%);
+  }
+
+  .fa-sun, .fa-moon {
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  /* Default state (light theme) */
+  .fa-sun {
+    display: none !important;
+  }
+  .fa-moon {
+    display: block !important;
+  }
+}
+
+/* Dark theme state */
+body.dark {
+  .theme__toggle {
+    .fa-sun {
+      display: block !important;
+    }
+    .fa-moon {
+      display: none !important;
+    }
+  }
+}
+
+// ... existing masthead styles ... 
