@@ -86,11 +86,55 @@ search: true
 // Initialize the map
 var map = L.map('map').setView([39.8283, -98.5795], 4); // Center on USA
 
-// Add the OpenStreetMap tiles
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 19,
-    attribution: '© OpenStreetMap contributors'
-}).addTo(map);
+// Call updateMapStyle immediately after map initialization
+updateMapStyle();
+
+// Function to check if dark mode is enabled
+function isDarkMode() {
+    const isDark = document.body.classList.contains('dark') ||
+                  document.documentElement.classList.contains('dark');
+    console.log('Dark mode detected:', isDark); // Debug logging
+    return isDark;
+}
+
+// Function to update map style based on theme
+function updateMapStyle() {
+    const darkMode = isDarkMode();
+    console.log('Updating map style, dark mode:', darkMode); // Debug logging
+    
+    if (window.currentTileLayer) {
+        map.removeLayer(window.currentTileLayer);
+    }
+    
+    if (darkMode) {
+        window.currentTileLayer = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+            maxZoom: 19,
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+        });
+    } else {
+        window.currentTileLayer = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+            maxZoom: 19,
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+        });
+    }
+    window.currentTileLayer.addTo(map);
+}
+
+// Create a MutationObserver to watch for theme changes
+const observer = new MutationObserver(function(mutations) {
+    console.log('Theme change detected'); // Debug logging
+    updateMapStyle();
+});
+
+// Start observing both body and html elements for class changes
+observer.observe(document.body, {
+    attributes: true,
+    attributeFilter: ['class']
+});
+observer.observe(document.documentElement, {
+    attributes: true,
+    attributeFilter: ['class']
+});
 
 // Define group data with coordinates
 const groups = [
