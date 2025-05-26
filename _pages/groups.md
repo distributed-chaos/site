@@ -7,9 +7,6 @@ keywords: "hacker groups, local meetups, join meetup, start group, hacker commun
 search: true
 ---
 
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-
 <style>
 #group-search {
     width: 100%;
@@ -49,19 +46,7 @@ search: true
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     border-color: var(--primary-color);
 }
-
-#map {
-    height: 400px;
-    width: 100%;
-    margin: 20px 0;
-    border-radius: 15px;
-    border: 1px solid var(--border-color);
-}
 </style>
-
-## Group Map
-
-<div id="map"></div>
 
 ## Active Groups
 
@@ -83,98 +68,6 @@ search: true
 </div>
 
 <script>
-// Initialize the map
-var map = L.map('map').setView([39.8283, -98.5795], 4); // Center on USA
-
-// Call updateMapStyle immediately after map initialization
-updateMapStyle();
-
-// Function to check if dark mode is enabled
-function isDarkMode() {
-    const isDark = document.body.classList.contains('dark') ||
-                  document.documentElement.classList.contains('dark');
-    console.log('Dark mode detected:', isDark); // Debug logging
-    return isDark;
-}
-
-// Function to update map style based on theme
-function updateMapStyle() {
-    const darkMode = isDarkMode();
-    console.log('Updating map style, dark mode:', darkMode); // Debug logging
-    
-    if (window.currentTileLayer) {
-        map.removeLayer(window.currentTileLayer);
-    }
-    
-    if (darkMode) {
-        window.currentTileLayer = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-            maxZoom: 19,
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
-        });
-    } else {
-        window.currentTileLayer = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-            maxZoom: 19,
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
-        });
-    }
-    window.currentTileLayer.addTo(map);
-}
-
-// Create a MutationObserver to watch for theme changes
-const observer = new MutationObserver(function(mutations) {
-    console.log('Theme change detected'); // Debug logging
-    updateMapStyle();
-});
-
-// Start observing both body and html elements for class changes
-observer.observe(document.body, {
-    attributes: true,
-    attributeFilter: ['class']
-});
-observer.observe(document.documentElement, {
-    attributes: true,
-    attributeFilter: ['class']
-});
-
-// Define group data with coordinates
-const groups = [
-    {
-        name: "DC202 - Washington DC",
-        url: "https://defcon202.org/",
-        coords: [38.9072, -77.0369],
-        description: "Washington DC area hacker group"
-    },
-    {
-        name: "DC423 - Chattanooga",
-        url: "https://dc423.org",
-        coords: [35.0456, -85.3097],
-        description: "Chattanooga, TN area hacker group"
-    },
-    {
-        name: "DC407 - Orlando",
-        url: "https://dc407.com",
-        coords: [28.5383, -81.3792],
-        description: "Orlando, FL area hacker group"
-    },
-    {
-        name: "NashSec - Nashville",
-        url: "https://dc615.org",
-        coords: [36.1627, -86.7816],
-        description: "Nashville, TN area hacker group"
-    }
-];
-
-// Add markers for each group
-groups.forEach(group => {
-    L.marker(group.coords)
-        .bindPopup(`
-            <strong>${group.name}</strong><br>
-            ${group.description}<br>
-            <a href="${group.url}" target="_blank">Visit Website</a>
-        `)
-        .addTo(map);
-});
-
 function filterGroups() {
     var input = document.getElementById('group-search');
     var filter = input.value.toLowerCase();
