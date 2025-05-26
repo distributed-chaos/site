@@ -1,0 +1,118 @@
+/*
+ * main-dark.css - Dark mode overrides for Minimal Mistakes Jekyll Theme
+ * Generated for Distributed Chaos
+ */
+
+body {
+    background: #181a1b !important;
+    color: #e6e6e6 !important;
+}
+
+.page__content,
+.site-title,
+.site-subtitle,
+.page__title,
+.page__meta {
+    color: #e6e6e6 !important;
+}
+
+a:not(.btn) {
+    color: #58a6ff !important;
+}
+
+a:not(.btn):hover {
+    color: #8ecbff !important;
+}
+
+.nav__items,
+.greedy-nav,
+.greedy-nav .visible-links,
+.search-content {
+    background-color: #181a1b !important;
+}
+
+.greedy-nav,
+.greedy-nav .visible-links,
+.search-content,
+.search-input {
+    color: #e6e6e6 !important;
+    border-color: #4a4a4a !important;
+}
+
+hr,
+.page__content h2,
+.page__content h3,
+.page__content h4,
+.page__content h5,
+.page__content h6 {
+    border-color: #4a4a4a !important;
+}
+
+.page__footer,
+.page__footer footer {
+    background: #181a1b !important;
+    color: #e6e6e6 !important;
+    border-top: 1px solid transparent !important;
+}
+
+.page__footer * {
+    border-top: 1px solid transparent !important;
+}
+
+.page__footer a,
+.page__footer a:visited {
+    color: #58a6ff !important;
+}
+
+.page__footer a:hover {
+    color: #8ecbff !important;
+}
+
+.page__footer-copyright {
+    color: #b0b0b0 !important;
+}
+
+.page__footer-follow .social-icons a {
+    color: #e6e6e6 !important;
+}
+
+.masthead,
+.masthead__inner-wrap {
+    background-color: #181a1b !important;
+    border-bottom: 1px solid #222 !important;
+}
+
+
+/* Group Directory dark mode (if not using CSS variables) */
+
+.group-directory-search {
+    background: #23272a !important;
+    color: #e6e6e6 !important;
+    border: 1px solid #4a4a4a !important;
+}
+
+.group-directory-search:focus {
+    border-color: #58a6ff !important;
+}
+
+.group-directory li {
+    background: #23272a !important;
+    color: #e6e6e6 !important;
+    border: 1px solid #4a4a4a !important;
+}
+
+.group-directory li:hover {
+    background: #222b3a !important;
+}
+
+.group-directory a {
+    color: #58a6ff !important;
+}
+
+.group-directory a:hover {
+    color: #8ecbff !important;
+}
+
+.group-directory .group-desc {
+    color: #b0b0b0 !important;
+}
