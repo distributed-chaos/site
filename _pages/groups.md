@@ -12,6 +12,7 @@ groups_list:
 - name: "DC407"
   location: "Orlando, FL"
   url: "https://dc407.com"
+  blurb: "The happiest hacks on earth."
 - name: "DC423"
   location: "Chattanooga, TN"
   url: "https://dc423.org"
