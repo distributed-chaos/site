@@ -11,4 +11,4 @@ permalink: /groups/
 - [KIRO (Seattle, WA)](https://www.kiro7.com/)
 - [WSVN (Miami, FL)](https://www.wsvn.com/)
 <!-- Add more groups here -->
-
+- [DC 202 - Washington DC](https://defcon202.org/)
