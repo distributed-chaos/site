@@ -24,40 +24,9 @@
 <meta property="og:title" content="Local Groups">
 <meta property="og:url" content="http://localhost:4000/groups/">
 
-
   <meta property="og:description" content="A lightweight framework for local hacker meetups">
 
-
-
-
-
-
-
-
-
-
-
-  
-
-  
-
-
 <link rel="canonical" href="http://localhost:4000/groups/">
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- end _includes/seo.html -->
-
-
 
   <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Distributed Chaos Feed">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -71,7 +40,6 @@
 <link rel="stylesheet" href="/assets/css/main.css">
 <link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
-
 
 
     <!-- start custom head snippets -->
@@ -161,18 +129,11 @@ body.dark .theme__toggle .fa-moon { display: none !important; }
     <div class="initial-content">
       
 
-
-
-
-
 <div id="main" role="main">
-  
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
     <meta itemprop="headline" content="Local Groups">
-    
-    
     
 
     <div class="page__inner-wrap">
@@ -192,7 +153,7 @@ body.dark .theme__toggle .fa-moon { display: none !important; }
         
         <h2 id="active-groups">Active Groups</h2>
 
-<p>Currently, we’re in the process of establishing our first local groups. If you’re interested in starting a Distributed Chaos group in your area, check out our <a href="/framework/">framework</a> and get in touch!</p>
+<p>Currently, we're in the process of establishing our first local groups. If you're interested in starting a Distributed Chaos group in your area, check out our <a href="/framework/">framework</a> and get in touch!</p>
 
 <h2 id="start-a-group">Start a Group</h2>
 
@@ -206,16 +167,87 @@ body.dark .theme__toggle .fa-moon { display: none !important; }
 
 <h2 id="group-directory">Group Directory</h2>
 
-<p><em>Coming soon - be the first to add your group!</em></p>
+<style>
+.group-directory-search {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  font-size: 1em;
+  background: var(--mm-background-color);
+  color: var(--mm-text-color);
+  border: 1px solid var(--mm-border-color);
+  border-radius: 6px;
+  box-sizing: border-box;
+  transition: border-color 0.2s, background 0.2s;
+}
+.group-directory-search:focus {
+  outline: none;
+  border-color: var(--mm-link-color);
+}
+</style>
+<input type="text" id="groupSearch" class="group-directory-search" placeholder="Search groups by name, city, or description...">
 
-<!-- 
-Format for adding groups:
-- [Group Name (City, State/Region)] - Brief description
-  - Meeting frequency: e.g., Monthly
-  - Typical location: e.g., Downtown area
-  - Contact: [Social link or contact method]
--->
+<ul id="groupList" class="group-directory">
+  <li data-name="DC202" data-city="Washington DC" data-desc="DEF CON group in Washington DC">
+    <a href="https://defcon202.org/" target="_blank"><strong>DC202 - Washington DC</strong></a>
+    <span class="group-desc">DEF CON group in Washington DC</span>
+  </li>
+  <li data-name="DC423" data-city="Chattanooga, TN" data-desc="Not much so far but it will be as it expands">
+    <a href="https://dc423.org" target="_blank"><strong>DC423 - Chattanooga, TN</strong></a>
+    <span class="group-desc">Not much so far but it will be as it expands</span>
+  </li>
+  <!-- Add more groups here -->
+</ul>
 
+<style>
+.group-directory {
+  list-style: none;
+  padding: 0;
+}
+.group-directory li {
+  background: var(--mm-background-color);
+  margin-bottom: 12px;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+  transition: background 0.2s;
+  border: 1px solid var(--mm-border-color);
+  color: var(--mm-text-color);
+}
+.group-directory li:hover {
+  background: rgba(88,166,255,0.08); /* subtle blue highlight for both modes */
+}
+.group-directory a {
+  font-size: 1.1em;
+  color: var(--mm-link-color);
+  text-decoration: none;
+}
+.group-directory a:hover {
+  color: #8ecbff;
+}
+.group-directory .group-desc {
+  display: block;
+  color: var(--mm-text-color);
+  margin-top: 4px;
+  font-size: 0.97em;
+  opacity: 0.8;
+}
+</style>
+
+<script>
+document.getElementById('groupSearch').addEventListener('input', function() {
+  var filter = this.value.toLowerCase();
+  var groups = document.querySelectorAll('#groupList li');
+  groups.forEach(function(group) {
+    var text = group.textContent.toLowerCase();
+    if (text.includes(filter)) {
+      group.style.display = '';
+    } else {
+      group.style.display = 'none';
+    }
+  });
+});
+</script>
 
         
       </section>
