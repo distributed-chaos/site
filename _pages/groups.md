@@ -6,6 +6,10 @@ description: "Find and join local hacker meetups in your area, or learn how to s
 keywords: "hacker groups, local meetups, join meetup, start group, hacker community, locations"
 search: true
 groups_list:
+- name: "DC202"
+  location: "Washington, DC"
+  url: "https://defcon202.com"
+  blurb: "🤫"
 - name: "DC256"
   location: "Huntsville, AL"
   url: "https://dc256.org"
@@ -14,10 +18,6 @@ groups_list:
   youtube_link: "https://www.youtube.com/@rocketcityhackers"
   discord_link: "https://discord.gg/RShXPkv4rm"
   linkedin_link: "https://www.linkedin.com/company/dc256"
-- name: "DC202"
-  location: "Washington, DC"
-  url: "https://defcon202.com"
-  blurb: "🤫"
 - name: "DC407"
   location: "Orlando, FL"
   url: "https://dc407.com"
@@ -33,6 +33,12 @@ groups_list:
   blurb: "Choo-Choo-Choose Hacking."
   twitter_link: "https://x.com/defcon423"
   discord_link: "https://discord.gg/5WwpwgC4Xe"
+- name : "DC435"
+  location: "Cache Valley, UT"
+  url: "https://dc435.org/"
+  blurb: "Official DEFCON group for Cache Valley, UT. Focused on infosec - serving students, professionals, researchers, and hobbyists."
+  discord_url: "https://discord.dc435.org/"
+  twitter_link: "https://x.com/defcon435"
 - name: "NashSec"
   location: "Nashville, TN"
   url: "https://dc615.org"
@@ -56,12 +62,6 @@ groups_list:
   discord_link: "https://discord.gg/801labs"
   meetup_link: "https://www.meetup.com/801labs"
   github_link: "https://github.com/801labs/"
-- name : "DC435"
-  location: "Cache Valley, UT"
-  url: "https://dc435.org/"
-  blurb: "Official DEFCON group for Cache Valley, UT. Focused on infosec - serving students, professionals, researchers, and hobbyists."
-  discord_url: "https://discord.dc435.org/"
-  twitter_link: "https://x.com/defcon435"
 ---
 
 ## Group Map
