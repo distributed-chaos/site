@@ -7,6 +7,7 @@
 <div id="groups-list">
     {% for g in groups_list %}
       <div class="group-item">
+        <div class="group-content">
         {% if g.name %}
           <h3>
             {% if g.url %}
@@ -21,7 +22,7 @@
         {% if g.blurb %}
           <small>{{ g.blurb }}</small>
         {% endif %}
-      </div>
+        </div>
         <div class="group-socials">
           <ul class="social-icons">
             {% if g.bsky_link %}
@@ -50,5 +51,6 @@
             {% endif %}
           </ul>
         </div>
+      </div>
     {% endfor %}
 </div>
