@@ -22,5 +22,33 @@
           <small>{{ g.blurb }}</small>
         {% endif %}
       </div>
+        <div class="group-socials">
+          <ul class="social-icons">
+            {% if g.bsky_link %}
+              <li><a href="{{g.bsky_link}}" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-square-bluesky" aria-hidden="true"></i></a></li>
+            {% endif %}
+            {% if g.twitter_link %}
+              <li><a href="{{g.twiter_link}}" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i></a></li>
+            {% endif %}
+            {% if g.facebook_link %}
+              <li><a href="{{g.facebook_link}}" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i></a></li>
+            {% endif %}
+            {% if g.github_link %}
+              <li><a href="{{g.github_link}}" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i></a></li>
+            {% endif %}
+            {% if g.instagram_link %}
+              <li><a href="{{g.instagram_link}}" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i></a></li>
+            {% endif %}
+            {% if g.linkedin_link %}
+              <li><a href="{{g.linkedin_link}}" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i></a></li>
+            {% endif %}
+            {% if g.youtube_link %}
+              <li><a href="{{g.youtube_link}}" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-youtube" aria-hidden="true"></i></a></li>
+            {% endif %}
+            {% if g.discord_link %}
+              <li><a href="{{g.discord_link}}" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-discord" aria-hidden="true"></i></a></li>
+            {% endif %}
+          </ul>
+        </div>
     {% endfor %}
 </div>
