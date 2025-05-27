@@ -375,18 +375,10 @@ After your event is added, you can track:
 - **Feedback**: Ask for suggestions on improving events
 - **Collaborate**: Partner with other groups for joint events
 - **Mentor**: Help newcomers add their first events
-
-## 📞 Contact
-
-For questions about contributing events:
-- **GitHub**: Open an issue in this repository
-- **Email**: [maintainer email]
-- **Community**: Join our Discord/Slack for real-time help
-
 ---
 
 ## 🙏 Thank You!
 
-Thank you for contributing to the Distributed Chaos community calendar! Your events help build a stronger, more connected community of makers, hackers, and technologists in the DC area.
+Thank you for contributing to the Distributed Chaos community calendar! Your events help build a stronger, more connected community of makers, hackers, and technologists.
 
 **Happy Contributing!** 🎉 
