@@ -28,7 +28,7 @@ function initMap() {
         },
         {
             name: "DC423 - Chattanooga",
-            url: "https://dc423.org",
+            url: "https://www.dc423.org",
             coords: [35.0456, -85.3097],
             description: "Chattanooga, TN area hacker group"
         },
