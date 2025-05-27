@@ -21,7 +21,7 @@ feature_row:
   btn_class: "btn--inverse"
 - title: "Resources"
   excerpt: "Tools and tips to make your meetup super 1337."
-  url: "/resources/"
+  url: "https://distributed.wiki"
   btn_label: "Gimme"
   btn_class: "btn--inverse"
 ---

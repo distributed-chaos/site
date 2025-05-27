@@ -7,6 +7,6 @@ main:
   - title: "Groups"
     url: /groups/
   - title: "Resources"
-    url: /resources/
+    url: "https://distributed.wiki"
   - title: "News"
     url: /news/
