@@ -37,6 +37,18 @@ function initMap() {
             url: "https://dc615.org",
             coords: [36.1627, -86.7816],
             description: "Nashville, TN area hacker group"
+        },
+        {
+            name: "DC801 - Salt Lake City",
+            url: "https://dc801.org",
+            coords: [40.7653, -111.8806],
+            description: "Salt Lake City, UT area hacker group"
+        },
+        {
+            name: "801 labs - Salt Lake City",
+            url: "https://801labs.org",
+            coords: [40.7653, -111.8806],
+            description: "Salt Lake City, UT area hackerspace"
         }
     ];
 
