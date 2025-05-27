@@ -350,28 +350,28 @@ input[type="radio"]:focus {
     cursor: pointer;
 }
 .btn--primary {
-    background-color: var(--color-background);
+    background-color: var(--color-muted);
     color: var(--color-foreground);
 }
 .btn--primary:visited {
-    background-color: var(--color-background);
+    background-color: var(--color-muted);
     color: var(--color-foreground);
 }
 .btn--primary:hover {
-    background-color: var(--color-background);
+    background-color: var(--color-border);
     color: var(--color-foreground);
 }
 .btn--inverse {
-    background-color: var(--color-background);
+    background-color: var(--color-muted);
     color: var(--color-foreground);
     border: 1px solid var(--color-border);
 }
 .btn--inverse:visited {
-    background-color: var(--color-background);
+    background-color: var(--color-muted);
     color: var(--color-foreground);
 }
 .btn--inverse:hover {
-    background-color: var(--color-background);
+    background-color: var(--color-border);
     color: var(--color-foreground);
 }
 .btn--bluesky {
@@ -622,7 +622,7 @@ input[type="radio"]:focus {
     animation: intro 0.3s both;
     -webkit-animation-delay: 0.45s;
     animation-delay: 0.45s;
-    background-color: var(--color-background);
+    background-color: var(--color-muted);
 }
 .page__footer::after {
     clear: both;
