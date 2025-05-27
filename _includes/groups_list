@@ -29,7 +29,7 @@
               <li><a href="{{g.bsky_link}}" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-square-bluesky" aria-hidden="true"></i></a></li>
             {% endif %}
             {% if g.twitter_link %}
-              <li><a href="{{g.twiter_link}}" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i></a></li>
+              <li><a href="{{g.twitter_link}}" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i></a></li>
             {% endif %}
             {% if g.facebook_link %}
               <li><a href="{{g.facebook_link}}" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i></a></li>
