@@ -20,9 +20,9 @@ feature_row:
   btn_label: "FA->FO"
   btn_class: "btn--inverse"
 - title: "Resources"
-  excerpt: "Tools and tips to make your meetup super 1337."
+  excerpt: "Tools and tips to make your meetups successful."
   url: "https://distributed.wiki"
-  btn_label: "Gimme"
+  btn_label: "Documentation"
   btn_class: "btn--inverse"
 ---
 
