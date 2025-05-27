@@ -429,8 +429,8 @@ img.mfp-img {
 }
 a:focus,
 button:focus {
-  outline:thin dotted var(--color-secondary);
-  outline:5px auto var(--color-secondary);
+  outline:thin dotted var(--color-border);
+  outline:5px auto var(--color-border);
   outline-offset:-2px
 }
 * {
@@ -464,11 +464,11 @@ body {
 }
 ::-moz-selection {
   color:var(--color-foreground);
-  background:var(--color-background)
+  background:var(--color-border)
 }
 ::selection {
   color:var(--color-foreground);
-  background:var(--color-background)
+  background:var(--color-border)
 }
 article,
 aside,
@@ -657,7 +657,7 @@ blockquote {
   margin-inline-end:1em;
   padding-inline:1em;
   font-style:italic;
-  border-inline-start:0.25em solid var(--color-secondary)
+  border-inline-start:0.25em solid var(--color-border)
 }
 blockquote cite {
   font-style:italic
