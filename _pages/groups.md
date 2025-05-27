@@ -8,7 +8,8 @@ search: true
 groups_list:
 - name: "DC202"
   location: "Washington, DC"
-  url: "https://defcon202.org"
+  url: "https://defcon202.com"
+  blurb: "🤫"
 - name: "DC407"
   location: "Orlando, FL"
   url: "https://dc407.com"
