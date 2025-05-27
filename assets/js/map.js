@@ -60,24 +60,17 @@ function initMap() {
     return map;
 }
 
-// Function to check if dark mode is enabled
-function isDarkMode() {
-    const isDark = document.body.classList.contains('dark') ||
-                  document.documentElement.classList.contains('dark');
-    return isDark;
-}
-
 // Function to update map style based on theme
 function updateMapStyle() {
     if (!globalMap) return;
     
-    const darkMode = isDarkMode();
+    const isDark = document.body.classList.contains('theme-dark')
     
     if (window.currentTileLayer) {
         globalMap.removeLayer(window.currentTileLayer);
     }
     
-    if (darkMode) {
+    if (isDark) {
         window.currentTileLayer = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
             maxZoom: 19,
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
