@@ -19,6 +19,7 @@ groups_list:
 - name: "NashSec"
   location: "Nashville, TN"
   url: "https://dc615.org"
+  blurb: “Rooted in 615. Rebooting Everywhere.”
 ---
 
 ## Group Map
