@@ -15,7 +15,7 @@ Our goal is to provide a few simple organizing principles rather than to dictate
 
 ## Be Active
 
-A meetup group that never meets isn't much of a meetup group. Whether online or in meatspace, DCGs should meet at least quarterly.
+A meetup group that never meets isn't much of a meetup group. Whether online or in meatspace, groups should meet at least quarterly.
 
 ## Be Open
 
