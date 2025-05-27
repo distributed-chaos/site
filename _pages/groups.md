@@ -23,6 +23,8 @@ groups_list:
   location: "Chattanooga, TN"
   url: "https://www.dc423.org"
   blurb: "Choo-Choo-Choose Hacking."
+  twitter_link: "https://x.com/defcon423"
+  discord_link: "https://discord.gg/5WwpwgC4Xe"
 - name: "NashSec"
   location: "Nashville, TN"
   url: "https://dc615.org"
