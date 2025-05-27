@@ -16,6 +16,7 @@ groups_list:
 - name: "DC423"
   location: "Chattanooga, TN"
   url: "https://dc423.org"
+  blurb: “Rooted in 615. Rebooting Everywhere.”
 - name: "NashSec"
   location: "Nashville, TN"
   url: "https://dc615.org"
