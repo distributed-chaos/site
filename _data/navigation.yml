@@ -6,6 +6,8 @@ main:
     url: /framework/
   - title: "Groups"
     url: /groups/
+  - title: "Calendar"
+    url: /calendar/
   - title: "Resources"
     url: "https://distributed.wiki"
   - title: "News"
