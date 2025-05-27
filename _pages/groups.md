@@ -9,7 +9,7 @@ groups_list:
 - name: "DC256"
   location: "Huntsville, AL"
   url: "https://dc256.org"
-  blurb: “Home of The Rocket City Hackers! 🚀”
+  blurb: "Home of The Rocket City Hackers! 🚀"
   twitter_link: "https://x.com/defcon256"
   youtube_link: "https://www.youtube.com/@rocketcityhackers"
   discord_link: "https://discord.gg/RShXPkv4rm"
