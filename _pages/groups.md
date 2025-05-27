@@ -39,7 +39,7 @@ groups_list:
   twitter_link: "https://x.com/dc801"
   youtube_link: "https://www.youtube.com/@DC-xp6ug"
   discord_link: "https://discord.gg/z4KSw5B"
- - name: "801 Labs"
+- name: "801 Labs"
   location: "Salt Lake City, UT"
   url: "https://dc801.org"
   blurb: "Salt Lake City-based non-profit hackerspace. Home of DC801."
