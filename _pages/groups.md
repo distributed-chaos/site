@@ -6,6 +6,14 @@ description: "Find and join local hacker meetups in your area, or learn how to s
 keywords: "hacker groups, local meetups, join meetup, start group, hacker community, locations"
 search: true
 groups_list:
+- name: "DC256"
+  location: "Huntsville, AL"
+  url: "https://dc256.org"
+  blurb: “Home of The Rocket City Hackers! 🚀”
+  twitter_link: "https://x.com/defcon256"
+  youtube_link: "https://www.youtube.com/@rocketcityhackers"
+  discord_link: "https://discord.gg/RShXPkv4rm"
+  linkedin_link: "https://www.linkedin.com/company/dc256"
 - name: "DC202"
   location: "Washington, DC"
   url: "https://defcon202.com"
@@ -41,7 +49,7 @@ groups_list:
   discord_link: "https://discord.gg/z4KSw5B"
 - name: "801 Labs"
   location: "Salt Lake City, UT"
-  url: "https://801labs.org"
+  url: "https://dc801.org"
   blurb: "Salt Lake City-based non-profit hackerspace. Home of DC801."
   twitter_link: "https://x.com/801labs"
   youtube_link: "https://www.youtube.com/c/801LabsSaltLakeCity"
