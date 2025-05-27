@@ -30,7 +30,7 @@ Distributed Chaos was born from the recognition that while online communities ar
 ## Get Involved
 
 - [Start a local group](/groups/#start-a-group)
-- [Contribute to our resources](/resources/)
+- [Contribute to our resources](https://distributed.wiki)
 - [Join our GitHub organization](https://github.com/distributed-chaos)
 
 ## Contact
