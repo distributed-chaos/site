@@ -1,0 +1,56 @@
+{% if include.id %}
+  {% assign groups_list = page[include.id] %}
+{% else %}
+  {% assign groups_list = page.groups_list %}
+{% endif %}
+
+<div id="groups-list">
+    {% for g in groups_list %}
+      <div class="group-item">
+        <div class="group-content">
+        {% if g.name %}
+          <h3>
+            {% if g.url %}
+              <a href="{{ g.url }}">
+            {% endif %}
+            {{ g.name }}{% if g.location %} - {{ g.location }}{% endif %}
+            {% if g.url %}
+              </a>
+            {% endif %}
+          </h3>
+        {% endif %}
+        {% if g.blurb %}
+          <small>{{ g.blurb }}</small>
+        {% endif %}
+        </div>
+        <div class="group-socials">
+          <ul class="social-icons">
+            {% if g.bsky_link %}
+              <li><a href="{{g.bsky_link}}" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-square-bluesky" aria-hidden="true"></i></a></li>
+            {% endif %}
+            {% if g.twitter_link %}
+              <li><a href="{{g.twiter_link}}" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i></a></li>
+            {% endif %}
+            {% if g.facebook_link %}
+              <li><a href="{{g.facebook_link}}" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i></a></li>
+            {% endif %}
+            {% if g.github_link %}
+              <li><a href="{{g.github_link}}" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i></a></li>
+            {% endif %}
+            {% if g.instagram_link %}
+              <li><a href="{{g.instagram_link}}" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i></a></li>
+            {% endif %}
+            {% if g.linkedin_link %}
+              <li><a href="{{g.linkedin_link}}" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i></a></li>
+            {% endif %}
+            {% if g.youtube_link %}
+              <li><a href="{{g.youtube_link}}" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-youtube" aria-hidden="true"></i></a></li>
+            {% endif %}
+            {% if g.discord_link %}
+              <li><a href="{{g.discord_link}}" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-discord" aria-hidden="true"></i></a></li>
+            {% endif %}
+          </ul>
+        </div>
+      </div>
+    {% endfor %}
+</div>
