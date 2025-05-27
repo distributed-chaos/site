@@ -27,6 +27,9 @@ groups_list:
   location: "Nashville, TN"
   url: "https://dc615.org"
   blurb: “Rooted in 615. Rebooting Everywhere.”
+  twitter_link: "https://x.com/defcon615"
+  youtube_link: "https://www.youtube.com/@defcon615"
+  discord_link: "https://discord.com/invite/tninfosec"
 ---
 
 ## Group Map
