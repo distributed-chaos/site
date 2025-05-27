@@ -15,6 +15,12 @@ function initMap() {
     // Define group data with coordinates
     const groups = [
         {
+            name: "DC256 - Huntsville",
+            url: "https://dc256.org/",
+            coords: [34.7112, -86.6559],
+            description: "Huntsville, AL area hacker group"
+        },
+        {
             name: "DC202 - Washington DC",
             url: "https://defcon202.org/",
             coords: [38.9072, -77.0369],
