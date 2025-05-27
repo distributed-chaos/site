@@ -9,6 +9,7 @@
   --color-error: #ff3b30;
   --color-success: #34c759;
   --color-warning: #ffcc00;
+	--color-hero: #f2f2f7;
 	
 	.theme__toggle .fa-sun {
 		display: block !important;
@@ -30,6 +31,7 @@
   --color-error: #ff453a;
   --color-success: #30d158;
 	--color-warning: #ffd60a;
+	--color-hero: #f2f2f7;
  
 	.theme__toggle .fa-sun {
 		display: none !important;
