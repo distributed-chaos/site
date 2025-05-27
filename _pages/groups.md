@@ -32,6 +32,23 @@ groups_list:
   twitter_link: "https://x.com/defcon615"
   youtube_link: "https://www.youtube.com/@defcon615"
   discord_link: "https://discord.com/invite/tninfosec"
+- name: "DC801"
+  location: "Salt Lake City, UT"
+  url: "https://dc801.org"
+  blurb: "Utah's own DEFCON group. Legacy hackers and cyber shenanigans."
+  twitter_link: "https://x.com/dc801"
+  youtube_link: "https://www.youtube.com/@DC-xp6ug"
+  discord_link: "https://discord.gg/z4KSw5B"
+ - name: "801 Labs"
+  location: "Salt Lake City, UT"
+  url: "https://dc801.org"
+  blurb: "Salt Lake City-based hackerspace. Home of DC801."
+  twitter_link: "https://x.com/801labs"
+  youtube_link: "https://www.youtube.com/c/801LabsSaltLakeCity"
+  discord_link: "https://discord.gg/801labs"
+  meetup_link: "https://www.meetup.com/801labs"
+  github_link: "https://github.com/801labs/"
+
 ---
 
 ## Group Map
