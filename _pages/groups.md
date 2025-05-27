@@ -56,7 +56,12 @@ groups_list:
   discord_link: "https://discord.gg/801labs"
   meetup_link: "https://www.meetup.com/801labs"
   github_link: "https://github.com/801labs/"
-
+- name : "DC435"
+  location: "Cache Valley, UT"
+  url: "https://dc435.org/"
+  blurb: "Official DEFCON group for Cache Valley, UT. Focused on infosec - serving students, professionals, researchers, and hobbyists."
+  discord_url: "https://discord.dc435.org/"
+  twitter_link: "https://x.com/defcon435"
 ---
 
 ## Group Map

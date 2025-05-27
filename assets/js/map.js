@@ -49,6 +49,12 @@ function initMap() {
             url: "https://801labs.org",
             coords: [40.7653, -111.8806],
             description: "Salt Lake City, UT area hackerspace"
+        },
+        {
+            name: "DC435 - Cache Valley",
+            url: "https://dc435.org",
+            coords: [41.7559, -111.8507],
+            description: "Cache Valley, UT area hacker group"
         }
     ];
 
