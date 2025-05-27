@@ -49,6 +49,9 @@
             {% if g.discord_link %}
               <li><a href="{{g.discord_link}}" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-discord" aria-hidden="true"></i></a></li>
             {% endif %}
+            {% if g.meetup_link %}
+              <li><a href="{{g.meetup_link}}" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-meetup" aria-hidden="true"></i></a></li>
+            {% endif %}
           </ul>
         </div>
       </div>
