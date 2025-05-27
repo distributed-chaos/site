@@ -6,7 +6,7 @@ Welcome! Distributed Chaos is a community project and we welcome contributions o
 - Found a bug?
 - Need to request a feature?
 - Want your group listed or updated?
-- Have a blog post abstract to submit?
+- Have a blog post abstract to submit?  
 Open an [issue](https://github.com/distributed-chaos/site/issues) and we'll get back with you!
 ### Pull Requests
 We’re not strict about code style, but please:
