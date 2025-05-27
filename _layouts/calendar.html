@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+<style>
+/* Hide footer for calendar page - multiple selectors for stronger override */
+.page__footer,
+#footer,
+footer,
+.site-footer {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  overflow: hidden !important;
+}
+
+/* Optimize page layout for calendar */
+.page__content {
+  min-height: 100vh;
+  padding-bottom: 0 !important;
+  max-width: none !important;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.page {
+  margin-bottom: 0 !important;
+}
+
+/* Ensure proper spacing */
+.masthead {
+  margin-bottom: 20px;
+}
+
+/* Make sure the main content takes full height */
+.layout--default .page {
+  min-height: 100vh;
+}
+
+body {
+  margin-bottom: 0 !important;
+}
+</style>
+
+{{ content }} 

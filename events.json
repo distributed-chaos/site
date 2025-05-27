@@ -1,0 +1,80 @@
+---
+permalink: /_data/events.json
+layout: null
+---
+{
+  "recurring_events": [
+    {% for event in site.data.events.recurring_events %}
+    {
+      "id": {{ event.id | jsonify }},
+      "title": {{ event.title | jsonify }},
+      "group": {{ event.group | jsonify }},
+      "description": {{ event.description | jsonify }},
+      "recurrence": {
+        "type": {{ event.recurrence.type | jsonify }},
+        "pattern": {{ event.recurrence.pattern | jsonify }},
+        "time": {{ event.recurrence.time | jsonify }},
+        "timezone": {{ event.recurrence.timezone | default: "America/New_York" | jsonify }}
+      },
+      "location": {
+        "type": {{ event.location.type | jsonify }},
+        "venue": {{ event.location.venue | default: "" | jsonify }},
+        "address": {{ event.location.address | default: "" | jsonify }},
+        "online_link": {{ event.location.online_link | default: "" | jsonify }},
+        "online_platform": {{ event.location.online_platform | default: "" | jsonify }}
+      },
+      "contact": {
+        "organizer": {{ event.contact.organizer | default: "" | jsonify }},
+        "email": {{ event.contact.email | default: "" | jsonify }},
+        "website": {{ event.contact.website | default: "" | jsonify }}
+      },
+      "tags": {{ event.tags | default: array | jsonify }},
+      "color": {{ event.color | default: "#3788d8" | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ],
+  "one_time_events": [
+    {% for event in site.data.events.one_time_events %}
+    {
+      "id": {{ event.id | jsonify }},
+      "title": {{ event.title | jsonify }},
+      "group": {{ event.group | jsonify }},
+      "description": {{ event.description | jsonify }},
+      "date": {{ event.date | jsonify }},
+      "start_time": {{ event.start_time | jsonify }},
+      "end_time": {{ event.end_time | default: "" | jsonify }},
+      "timezone": {{ event.timezone | default: "America/New_York" | jsonify }},
+      "location": {
+        "type": {{ event.location.type | jsonify }},
+        "venue": {{ event.location.venue | default: "" | jsonify }},
+        "address": {{ event.location.address | default: "" | jsonify }},
+        "online_link": {{ event.location.online_link | default: "" | jsonify }},
+        "online_platform": {{ event.location.online_platform | default: "" | jsonify }}
+      },
+      "contact": {
+        "organizer": {{ event.contact.organizer | default: "" | jsonify }},
+        "email": {{ event.contact.email | default: "" | jsonify }},
+        "website": {{ event.contact.website | default: "" | jsonify }}
+      },
+      "registration": {
+        "required": {{ event.registration.required | default: false | jsonify }},
+        "link": {{ event.registration.link | default: "" | jsonify }},
+        "cost": {{ event.registration.cost | default: "" | jsonify }}
+      },
+      "prerequisites": {{ event.prerequisites | default: "" | jsonify }},
+      "tags": {{ event.tags | default: array | jsonify }},
+      "color": {{ event.color | default: "#3788d8" | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ],
+  "categories": [
+    {% for category in site.data.events.categories %}
+    {
+      "id": {{ category.id | jsonify }},
+      "name": {{ category.name | jsonify }},
+      "description": {{ category.description | jsonify }},
+      "color": {{ category.color | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}
