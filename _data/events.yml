@@ -3,31 +3,6 @@
 
 # Recurring Events (like regular meetups)
 recurring_events:
-  - id: dc423_monthly
-    title: "DC423 Monthly Meetup"
-    group: "DC423"
-    description: >
-      DC423 meets on the last Wednesday of each month at 6:30 PM. 
-      Join us for discussions on security, hacking, and technology.
-      The meetup is hybrid: in-person and also available via Discord.
-    recurrence:
-      type: "monthly"
-      pattern: "last Wednesday"  # Options: "first Monday", "second Tuesday", "last Friday", etc.
-      time: "18:30"
-      timezone: "America/New_York"
-    location:
-      type: "hybrid"  # Options: "in_person", "online", "hybrid"
-      venue: "XYZ Cafe"
-      address: "123 Main St, Washington, DC 20001"
-      online_link: "https://discord.gg/example"
-      online_platform: "Discord"
-    contact:
-      organizer: "Jane Doe"
-      email: "organizer@dc423.org"
-      website: "https://dc423.org"
-    tags: ["security", "hacking", "networking"]
-    color: "#ff6b6b"  # Calendar display color
-
   - id: nova_labs_weekly
     title: "NoVA Labs Open House"
     group: "NoVA Labs"
@@ -48,6 +23,27 @@ recurring_events:
       email: "info@novalabs.org"
       website: "https://novalabs.org"
     tags: ["maker", "electronics", "3d-printing"]
+    color: "#4ecdc4"
+
+  - id: nashsec_monthly
+    title: "Nashsec Meetup"
+    group: "Nashsec"
+    description: >
+      Monthly meetup for the Nashville security community.
+      Third Wednesday of each month.
+    recurrence:
+      type: "monthly"
+      pattern: "third Wednesday"
+      time: "18:30"
+      timezone: "America/Chicago"
+    location:
+      type: "in_person"
+      venue: "Up/Down"
+      address: "927 Woodland St · Nashville, TN"
+    contact:
+      organizer: "Nashsec"
+      website: "https://www.meetup.com/nashsec/"
+    tags: ["in-person", "social"]
     color: "#4ecdc4"
 
 # One-time Events (conferences, special events, etc.)
@@ -114,19 +110,29 @@ categories:
   - id: "maker"
     name: "Maker & Hardware"
     description: "Hardware hacking, electronics, and maker activities"
-    color: "#4ecdc4"
+    color: "#faeb61"
   
   - id: "software"
     name: "Software Development"
     description: "Programming, software development, and coding events"
-    color: "#45b7d1"
+    color: "#333533"
   
   - id: "social"
     name: "Social & Networking"
     description: "Social events and networking opportunities"
-    color: "#96ceb4"
+    color: "#84c43b"
   
   - id: "education"
     name: "Education & Workshops"
     description: "Learning opportunities and skill-building workshops"
-    color: "#a55eea" 
+    color: "#106b9f" 
+
+  - id: "in-person"
+    name: "In Person"
+    description: "Events that are in person."
+    color: "#ec4a8d"
+
+  - id: "workshop"
+    name: "Workshop"
+    description: "Events include are workshops."
+    color: "#243127"

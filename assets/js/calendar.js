@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', function() {
     .catch(error => {
       console.error('Error loading events:', error);
       calendarEl.innerHTML = `
-        <div style="padding: 20px; background: #f8d7da; border: 1px solid #f5c6cb; border-radius: 4px; color: #721c24;">
+        <div class="calendar-error">
           <h4>Error Loading Calendar</h4>
           <p>There was an error loading the calendar events. Please check the browser console for details.</p>
           <p><strong>Error:</strong> ${error.message}</p>
