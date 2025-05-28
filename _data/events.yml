@@ -1,0 +1,132 @@
+# Events Configuration
+# Add your events here following the examples below
+
+# Recurring Events (like regular meetups)
+recurring_events:
+  - id: dc423_monthly
+    title: "DC423 Monthly Meetup"
+    group: "DC423"
+    description: >
+      DC423 meets on the last Wednesday of each month at 6:30 PM. 
+      Join us for discussions on security, hacking, and technology.
+      The meetup is hybrid: in-person and also available via Discord.
+    recurrence:
+      type: "monthly"
+      pattern: "last Wednesday"  # Options: "first Monday", "second Tuesday", "last Friday", etc.
+      time: "18:30"
+      timezone: "America/New_York"
+    location:
+      type: "hybrid"  # Options: "in_person", "online", "hybrid"
+      venue: "XYZ Cafe"
+      address: "123 Main St, Washington, DC 20001"
+      online_link: "https://discord.gg/example"
+      online_platform: "Discord"
+    contact:
+      organizer: "Jane Doe"
+      email: "organizer@dc423.org"
+      website: "https://dc423.org"
+    tags: ["security", "hacking", "networking"]
+    color: "#ff6b6b"  # Calendar display color
+
+  - id: nova_labs_weekly
+    title: "NoVA Labs Open House"
+    group: "NoVA Labs"
+    description: >
+      Weekly open house at NoVA Labs. Come work on projects, 
+      learn new skills, and meet fellow makers.
+    recurrence:
+      type: "weekly"
+      pattern: "Tuesday"
+      time: "19:00"
+      timezone: "America/New_York"
+    location:
+      type: "in_person"
+      venue: "NoVA Labs"
+      address: "9572 Main St, Fairfax, VA 22031"
+    contact:
+      organizer: "NoVA Labs"
+      email: "info@novalabs.org"
+      website: "https://novalabs.org"
+    tags: ["maker", "electronics", "3d-printing"]
+    color: "#4ecdc4"
+
+# One-time Events (conferences, special events, etc.)
+one_time_events:
+  - id: defcon_dc_2025
+    title: "DEF CON DC 2025"
+    group: "DEF CON DC"
+    description: >
+      Annual DEF CON DC conference featuring talks on cybersecurity,
+      workshops, and networking opportunities.
+    date: "2025-06-15"
+    start_time: "09:00"
+    end_time: "18:00"
+    timezone: "America/New_York"
+    location:
+      type: "in_person"
+      venue: "Washington Convention Center"
+      address: "801 Mt Vernon Pl NW, Washington, DC 20001"
+    contact:
+      organizer: "DEF CON DC Team"
+      email: "info@defcondc.org"
+      website: "https://defcondc.org"
+    registration:
+      required: true
+      link: "https://defcondc.org/register"
+      cost: "$50"
+    tags: ["conference", "cybersecurity", "talks"]
+    color: "#ff9f43"
+
+  - id: crypto_workshop_2025
+    title: "Introduction to Cryptography Workshop"
+    group: "DC CryptoParty"
+    description: >
+      Hands-on workshop covering the basics of cryptography,
+      including symmetric and asymmetric encryption.
+    date: "2025-06-20"
+    start_time: "14:00"
+    end_time: "17:00"
+    timezone: "America/New_York"
+    location:
+      type: "hybrid"
+      venue: "Central Library"
+      address: "901 G St NW, Washington, DC 20001"
+      online_link: "https://meet.jit.si/crypto-workshop-dc"
+      online_platform: "Jitsi Meet"
+    contact:
+      organizer: "Alice Crypto"
+      email: "alice@cryptoparty.org"
+    registration:
+      required: true
+      link: "https://eventbrite.com/crypto-workshop"
+      cost: "Free"
+    prerequisites: "Basic computer skills"
+    tags: ["workshop", "cryptography", "education"]
+    color: "#a55eea"
+
+# Event Categories (for filtering and organization)
+categories:
+  - id: "security"
+    name: "Security & Privacy"
+    description: "Events focused on cybersecurity, privacy, and digital rights"
+    color: "#ff6b6b"
+  
+  - id: "maker"
+    name: "Maker & Hardware"
+    description: "Hardware hacking, electronics, and maker activities"
+    color: "#4ecdc4"
+  
+  - id: "software"
+    name: "Software Development"
+    description: "Programming, software development, and coding events"
+    color: "#45b7d1"
+  
+  - id: "social"
+    name: "Social & Networking"
+    description: "Social events and networking opportunities"
+    color: "#96ceb4"
+  
+  - id: "education"
+    name: "Education & Workshops"
+    description: "Learning opportunities and skill-building workshops"
+    color: "#a55eea" 
