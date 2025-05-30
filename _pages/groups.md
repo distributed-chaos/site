@@ -67,6 +67,13 @@ groups_list:
   url: "N/A"
   blurb: "Palm Beach Florida based hackers!"
   discord_link: "https://discord.gg/ghJqQVSUJB"
+- name: "Utah County Hackers"
+  location: "Lehi, UT"
+  url: "https://www.mirolabs.info/uch"
+  blurb: "A group for the Utah County hackers, makers and nerds from Santaquin to Alpine."
+  linkedin_link: "https://www.linkedin.com/company/utahcountyhackers/"
+  discord_link: "https://discord.gg/9ggVgewktz"
+  
 ---
 
 ## Group Map
