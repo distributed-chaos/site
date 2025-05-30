@@ -45,6 +45,27 @@ recurring_events:
       website: "https://www.meetup.com/nashsec/"
     tags: ["in-person", "social"]
     color: "#4ecdc4"
+    
+  - id: dc423_monthly
+    title: "DC423 Meetup"
+    group: "DC423"
+    description: >
+      Monthly meetup for the Nashville security community.
+      Last Wednesday of each month.
+    recurrence:
+      type: "monthly"
+      pattern: "last Wednesday"
+      time: "18:30"
+      timezone: "America/New York"
+    location:
+      type: "in_person"
+      venue: "TEKSystems"
+      address: "1206 Pointe Centre Dr #100, Chattanooga, TN"
+    contact:
+      organizer: "DC423"
+      website: "https://www.dc423.org/"
+    tags: ["in-person", "social", "security"]
+    color: "#4ecdc4"
 
 # One-time Events (conferences, special events, etc.)
 one_time_events:
