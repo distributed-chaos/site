@@ -50,7 +50,7 @@ recurring_events:
     title: "DC423 Meetup"
     group: "DC423"
     description: >
-      Monthly meetup for the Nashville security community.
+      Monthly meetup for the Chattanooga's security community.
       Last Wednesday of each month.
     recurrence:
       type: "monthly"
