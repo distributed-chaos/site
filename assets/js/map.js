@@ -61,6 +61,12 @@ function initMap() {
             url: "https://dc435.org",
             coords: [41.7559, -111.8507],
             description: "Cache Valley, UT area hacker group"
+        },
+        {
+            name: "Utah County Hackers",
+            url: "https://www.mirolabs.info/uch",
+            coords: [40.4322, -111.8786],
+            description: "Lehi, UT area hacker group"
         }
     ];
 
