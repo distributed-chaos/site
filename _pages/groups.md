@@ -62,6 +62,11 @@ groups_list:
   discord_link: "https://discord.gg/801labs"
   meetup_link: "https://www.meetup.com/801labs"
   github_link: "https://github.com/801labs/"
+- name: "DC561"
+  location: "Boca Raton, FL"
+  url: "N/A"
+  blurb: "Palm Beach Florida based hackers!"
+  discord_link: "https://discord.gg/ghJqQVSUJB"
 ---
 
 ## Group Map
