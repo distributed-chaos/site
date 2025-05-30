@@ -29,3 +29,18 @@ Once dependencies are satisfied, you should be able to clone this repository (or
 bundle install
 bundle exec jekyll serve
 ```
+## License  
+All original content in this repository including Markdown files, blog posts, documentation, and static site content is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
+
+You are free to:  
+- Share, copy, and redistribute the material in any medium or format.  
+- Adapt, remix, transform, and build upon the material for any purpose.  
+
+Under the following terms:  
+- You must give appropriate credit, provide a link to the license, and indicate if changes were made.  
+- If you remix, transform, or build upon the material, you must distribute your contributions under the same license.  
+
+This license does not apply to third-party assets, external libraries, or referenced works, which retain their original licenses.  
+
+### JavaScript and Theme Code  
+The minimal JS and theme scaffolding used to present this content are licensed under the [MIT License](https://opensource.org/licenses/MIT), unless otherwise stated.  
