@@ -13,6 +13,10 @@ Welcome! Distributed Chaos is a community project and we welcome contributions o
 - Have a blog post abstract to submit?  
 
 Open an [issue](https://github.com/distributed-chaos/site/issues) and we'll get back with you!
+
+#### Adding/Updating Group Info
+All group info lives in [_data/groups.yml](https://github.com/distributed-chaos/site/blob/main/_data/groups.yml). The comment at the top shows all available fields and indicates which are required/optional. We try to keep the group list alphabetized, so please keep that in mind when adding a new group.
+
 #### Pull Requests
 We’re not strict about code style, but please:
 - Open an issue before submitting major changes 
