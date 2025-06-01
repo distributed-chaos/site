@@ -1,3 +1,5 @@
+---
+---
 // Global map variable for theme updates
 let globalMap;
 
@@ -14,60 +16,14 @@ function initMap() {
 
     // Define group data with coordinates
     const groups = [
+      {% for group in site.data.groups %}
         {
-            name: "DC256 - Huntsville",
-            url: "https://dc256.org/",
-            coords: [34.7112, -86.6559],
-            description: "Huntsville, AL area hacker group"
+            name: "{{group.name}}",
+            url: "{{group.url}}",
+            coords: {{group.coords}},
+            description: "{{group.blurb}}"
         },
-        {
-            name: "DC202 - Washington DC",
-            url: "https://defcon202.org/",
-            coords: [38.9072, -77.0369],
-            description: "Washington DC area hacker group"
-        },
-        {
-            name: "DC423 - Chattanooga",
-            url: "https://www.dc423.org",
-            coords: [35.0456, -85.3097],
-            description: "Chattanooga, TN area hacker group"
-        },
-        {
-            name: "DC407 - Orlando",
-            url: "https://dc407.com",
-            coords: [28.5383, -81.3792],
-            description: "Orlando, FL area hacker group"
-        },
-        {
-            name: "NashSec - Nashville",
-            url: "https://dc615.org",
-            coords: [36.1627, -86.7816],
-            description: "Nashville, TN area hacker group"
-        },
-        {
-            name: "DC801 - Salt Lake City",
-            url: "https://dc801.org",
-            coords: [40.7653, -111.8806],
-            description: "Salt Lake City, UT area hacker group"
-        },
-        {
-            name: "801 labs - Salt Lake City",
-            url: "https://801labs.org",
-            coords: [40.7653, -111.8806],
-            description: "Salt Lake City, UT area hackerspace"
-        },
-        {
-            name: "DC435 - Cache Valley",
-            url: "https://dc435.org",
-            coords: [41.7559, -111.8507],
-            description: "Cache Valley, UT area hacker group"
-        },
-        {
-            name: "Utah County Hackers",
-            url: "https://www.mirolabs.info/uch",
-            coords: [40.4322, -111.8786],
-            description: "Lehi, UT area hacker group"
-        }
+      {% endfor %}
     ];
 
     // Add markers for each group

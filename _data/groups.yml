@@ -1,0 +1,95 @@
+# To add a new group, simply create a new entry in the list.
+# 
+# - name:           REQUIRED - your group's name
+#   location:       REQUIRED - your group's location
+#   coords:         REQUIRED - lat/lon coordinates for the map
+#   url:            REQUIRED - your group's URL, if you don't have a site, use one of your socials
+#   blurb:          OPTIONAL - short group description
+#   bsky_link:      OPTIONAL - Bluesky link
+#   twitter_link:   OPTIONAL - Xitter link
+#   facebook_link:  OPTIONAL - Facebook link
+#   github_link:    OPTIONAL - Github link
+#   instagram_link: OPTIONAL - Instagram link
+#   linkedin_link:  OPTIONAL - LinkedIn link
+#   youtube_link:   OPTIONAL - YouTube link
+#   discord_link:   OPTIONAL - Discord link
+#   meetup_link:    OPTIONAL - Meetup link
+
+- name: "DC202"
+  location: "Washington, DC"
+  coords: "[38.9072, -77.0369]"
+  url: "https://defcon202.com"
+  blurb: "🤫"
+- name: "DC256"
+  location: "Huntsville, AL"
+  coords: "[34.7112, -86.6559]"
+  url: "https://dc256.org"
+  blurb: "Home of The Rocket City Hackers! 🚀"
+  twitter_link: "https://x.com/defcon256"
+  youtube_link: "https://www.youtube.com/@rocketcityhackers"
+  discord_link: "https://discord.gg/RShXPkv4rm"
+  linkedin_link: "https://www.linkedin.com/company/dc256"
+- name: "DC407"
+  location: "Orlando, FL"
+  coords: "[28.5383, -81.3792]"
+  url: "https://dc407.com"
+  blurb: "The happiest hacks on earth."
+  bsky_link: "https://bsky.app/profile/dc407.bsky.social"
+  twitter_link: "https://x.com/dcg407"
+  instagram_link: "https://www.instagram.com/dc407_/"
+  youtube_link: "https://www.youtube.com/@DCG407"
+  linkedin_link: "https://www.linkedin.com/company/dc407/"
+  discord_link: "https://discord.gg/r6Z9abZfDV"
+- name: "DC423"
+  location: "Chattanooga, TN"
+  url: "https://www.dc423.org"
+  coords: "[35.0456, -85.3097]"
+  blurb: "Choo-Choo-Choose Hacking."
+  twitter_link: "https://x.com/defcon423"
+  discord_link: "https://discord.gg/5WwpwgC4Xe"
+- name: "DC435"
+  location: "Cache Valley, UT"
+  coords: "[41.7559, -111.8507]"
+  url: "https://dc435.org/"
+  blurb: "Official DEFCON group for Cache Valley, UT. Focused on infosec - serving students, professionals, researchers, and hobbyists."
+  discord_url: "https://discord.dc435.org/"
+  twitter_link: "https://x.com/defcon435"
+- name: "DC561"
+  location: "Boca Raton, FL"
+  coords: "[26.3683, -80.1289]"
+  url: "N/A"
+  blurb: "Palm Beach Florida based hackers!"
+  discord_link: "https://discord.gg/ghJqQVSUJB"
+- name: "NashSec"
+  location: "Nashville, TN"
+  coords: "[36.1627, -86.7816]"
+  url: "https://dc615.org"
+  blurb: “Rooted in 615. Rebooting Everywhere.”
+  twitter_link: "https://x.com/defcon615"
+  youtube_link: "https://www.youtube.com/@defcon615"
+  discord_link: "https://discord.com/invite/tninfosec"
+- name: "DC801"
+  location: "Salt Lake City, UT"
+  coords: "[40.7653, -111.8806]"
+  url: "https://dc801.org"
+  blurb: "Utah's own DEFCON group. Legacy hackers and cyber shenanigans."
+  twitter_link: "https://x.com/dc801"
+  youtube_link: "https://www.youtube.com/@DC-xp6ug"
+  discord_link: "https://discord.gg/z4KSw5B"
+- name: "801 Labs"
+  location: "Salt Lake City, UT"
+  coords: "[40.7653, -111.8806]"
+  url: "https://801labs.org"
+  blurb: "Salt Lake City-based non-profit hackerspace. Home of DC801."
+  twitter_link: "https://x.com/801labs"
+  youtube_link: "https://www.youtube.com/c/801LabsSaltLakeCity"
+  discord_link: "https://discord.gg/801labs"
+  meetup_link: "https://www.meetup.com/801labs"
+  github_link: "https://github.com/801labs/"
+- name: "Utah County Hackers"
+  location: "Lehi, UT"
+  coords: "[40.4322, -111.8786]"
+  url: "https://www.mirolabs.info/uch"
+  blurb: "A group for the Utah County hackers, makers and nerds from Santaquin to Alpine."
+  linkedin_link: "https://www.linkedin.com/company/utahcountyhackers/"
+  discord_link: "https://discord.gg/9ggVgewktz"
