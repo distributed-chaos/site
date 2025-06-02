@@ -6,35 +6,26 @@ description: "Learn about Distributed Chaos, our mission, values, and the commun
 keywords: "about, mission, values, hacker community, distributed chaos, local meetups"
 search: true
 ---
-
 ## What is Distributed Chaos?
+Distributed Chaos is an independent, community-driven project. We are not affiliated with any single organization, group, or platform.
 
-Distributed Chaos is a grassroots initiative to foster local hacker communities worldwide. We believe in the power of face-to-face connections and hands-on learning in the hacker and security community.
+Our goal is to provide a central hub where infosec communities can post events, share socials, and publish articles. We also aim to offer a generic framework to help reduce the mental, logistical, and financial overhead of starting, growing, and sustaining a community.
 
-## Our Mission
-
-To provide a lightweight framework that enables local hacker groups to form, grow, and thrive while maintaining their independence and unique character.
+Anyone is welcome to contribute, list their group, or publish content through the platform. Groups already affiliated with other organizations (2600, DefCon, B-Sides, CitySec, etc.) are more than welcome to participate. If you're building something aligned with our core values, we want to support you.
 
 ## Core Values
-
-- **Community First**: We prioritize building genuine connections and sharing knowledge
-- **Decentralized**: No central authority - just a framework and shared principles
-- **Open & Inclusive**: Everyone is welcome to participate and contribute
-- **Educational**: Focus on learning and skill development
-- **Independent**: Each group maintains its autonomy while sharing common values
+1. Participation should be open to anyone, regardless of background or affiliation.  
+2. Groups should avoid language that implies exclusive ownership of their community.  
+3. Distribution of knowledge should be free and accessible to all members.  
 
 ## History
-
-Distributed Chaos was born from the recognition that while online communities are valuable, there's something special about meeting fellow hackers face-to-face. We launched in 2024 with the goal of making it easier for local hacker communities to organize and connect.
-
+Distributed Chaos was born from the recognition that many infosec communities exist in isolation, often without representation in larger networks. We launched in 2025 with the goal of creating a shared framework that could remain open and inclusive of all current and future groups. Our intention is not to replace existing networks, but to help strengthen the backbone of the broader infosec and hacker community.
 ## Get Involved
-
-- [Start a local group](/groups/#start-a-group)
-- [Contribute to our resources](https://distributed.wiki)
-- [Join our GitHub organization](https://github.com/distributed-chaos)
+- [Start A Group](/groups/#start-a-group)
+- [Contribute to the Framework](https://distributed.wiki)
+- [Follow Our GitHub](https://github.com/distributed-chaos)
 
 ## Contact
-
 Have questions? Want to get involved? You can reach us through:
-- [GitHub Discussions](https://github.com/distributed-chaos/community/discussions)
+- [GitHub Issue Submissions](https://github.com/distributed-chaos/site/issues)
 - [Bluesky](https://bsky.app/profile/distributedchaos.org) 
