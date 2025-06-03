@@ -12,7 +12,7 @@ function initMap() {
         return null;
     }
 
-    var map = L.map('map').setView([39.8283, -98.5795], 4); // Center on USA
+    var map = L.map('map').setView([20,-15], 2); // Span US and India
 
     // Define group data with coordinates
     const groups = [
