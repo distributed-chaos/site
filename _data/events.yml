@@ -3,28 +3,6 @@
 
 # Recurring Events (like regular meetups)
 recurring_events:
-  - id: nova_labs_weekly
-    title: "NoVA Labs Open House"
-    group: "NoVA Labs"
-    description: >
-      Weekly open house at NoVA Labs. Come work on projects, 
-      learn new skills, and meet fellow makers.
-    recurrence:
-      type: "weekly"
-      pattern: "Tuesday"
-      time: "19:00"
-      timezone: "America/New_York"
-    location:
-      type: "in_person"
-      venue: "NoVA Labs"
-      address: "9572 Main St, Fairfax, VA 22031"
-    contact:
-      organizer: "NoVA Labs"
-      email: "info@novalabs.org"
-      website: "https://novalabs.org"
-    tags: ["maker", "electronics", "3d-printing"]
-    color: "#4ecdc4"
-
   - id: nashsec_monthly
     title: "Nashsec Meetup"
     group: "Nashsec"
@@ -69,57 +47,29 @@ recurring_events:
 
 # One-time Events (conferences, special events, etc.)
 one_time_events:
-  - id: defcon_dc_2025
-    title: "DEF CON DC 2025"
-    group: "DEF CON DC"
+  - id: bsorl_25
+    title: "BSides Orlando"
+    group: "BSides Orlando"
     description: >
-      Annual DEF CON DC conference featuring talks on cybersecurity,
-      workshops, and networking opportunities.
-    date: "2025-06-15"
+      Home of Lil' Chompy!
+    date: "2025-09-27"
     start_time: "09:00"
     end_time: "18:00"
     timezone: "America/New_York"
     location:
       type: "in_person"
-      venue: "Washington Convention Center"
-      address: "801 Mt Vernon Pl NW, Washington, DC 20001"
+      venue: "Full Sail University"
+      address: "141 University Park Dr, Winter Park, FL 32792"
     contact:
-      organizer: "DEF CON DC Team"
-      email: "info@defcondc.org"
-      website: "https://defcondc.org"
+      organizer: "BSides Orlando"
+      email: "info@bsidesorlando.org"
+      website: "https://bsidesorlando.org"
     registration:
       required: true
-      link: "https://defcondc.org/register"
-      cost: "$50"
+      link: "https://bsidesorlando.org"
+      cost: "TBD"
     tags: ["conference", "cybersecurity", "talks"]
     color: "#ff9f43"
-
-  - id: crypto_workshop_2025
-    title: "Introduction to Cryptography Workshop"
-    group: "DC CryptoParty"
-    description: >
-      Hands-on workshop covering the basics of cryptography,
-      including symmetric and asymmetric encryption.
-    date: "2025-06-20"
-    start_time: "14:00"
-    end_time: "17:00"
-    timezone: "America/New_York"
-    location:
-      type: "hybrid"
-      venue: "Central Library"
-      address: "901 G St NW, Washington, DC 20001"
-      online_link: "https://meet.jit.si/crypto-workshop-dc"
-      online_platform: "Jitsi Meet"
-    contact:
-      organizer: "Alice Crypto"
-      email: "alice@cryptoparty.org"
-    registration:
-      required: true
-      link: "https://eventbrite.com/crypto-workshop"
-      cost: "Free"
-    prerequisites: "Basic computer skills"
-    tags: ["workshop", "cryptography", "education"]
-    color: "#a55eea"
 
 # Event Categories (for filtering and organization)
 categories:
